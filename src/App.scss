@@ -1,0 +1,10 @@
+:root{
+    --Dwidth: 1440px
+}
+.App{
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    flex: right;
+    width: var(--Dwidth);
+}
