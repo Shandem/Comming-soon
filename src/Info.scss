@@ -1,3 +1,34 @@
+:root{
+    --color:hsl(0, 36%, 70%); 
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif
+}
+.infoContainer{
+    
+}
+.logo{
+    margin-left: -230px;
+}
+.we{
+    font-weight: 300;
+    color: var(--color);
+    font-size: 60px;
+    text-align: left;
+}
+.comming{
+    margin-top: -40px;
+    font-size: 60px;
+    text-align: left;
+}
+.blurb{
+    color: var(--color);
+    font-size: 16px;
+    width: 400px;
+    line-height: 25px;
+    text-align: left;
+}
 .background{
     position: absolute;
     z-index: -2;
