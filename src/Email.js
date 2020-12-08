@@ -78,10 +78,11 @@ class Email extends Component {
               placeholder="Email Address" 
               id="email" />
     
-              <div className="text-danger">{this.state.errors.email}</div>
+              
           </div>
           <input type="submit" value=">" class="btn btn-success" />
         </form>
+        <div className="text-danger">{this.state.errors.email}</div>
       </div>
     );
   }

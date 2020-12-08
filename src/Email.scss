@@ -1,3 +1,7 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  hsl(0, 36%, 70%);
+    opacity: .5; /* Firefox */
+  }
 .email-glo{
     font-family: 'Josefin Sans', sans-serif;
     color:hsl(0, 36%, 70%);
@@ -7,15 +11,18 @@
         display: flex;
         flex-direction: row;
         flex: right;
+        color: hsl(0, 36%, 70%);
         .form-control{
             border-radius: 20px;
-            border: 1px solid gray ;
+            border: 1px solid hsl(0, 36%, 70%) ;
             height: 20px;
             width: 340px;
             padding: 10px;
+            opacity: .5
         }
 
     .btn{
+        z-index: 1;
         color: ivory;
         margin-left: -35px;
         font-size: 20px;
@@ -25,7 +32,12 @@
         border: transparent;
         background: rgb(255,245,245);
         background: linear-gradient(135deg, rgba(255,245,245,1) 0%, rgba(248,191,191,1) 28%, rgba(238,140,140,1) 81%);
+        box-shadow:  2px 1px 1px 0px rgba(0,0,0,.25)
         }
+    }
+    .text-danger{
+        margin-top: -55px;
+        margin-left: -100px;
     }
 
 }
